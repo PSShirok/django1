@@ -1,0 +1,104 @@
+[
+{
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+        "first_name": "Овощи",
+        "description": "полезные овощные культуры"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+        "first_name": "Фрукты",
+        "description": "сочные, вкусные, полезные"
+    }
+},
+{
+    "model": "products.category",
+    "pk": 6,
+    "fields": {
+        "first_name": "Ягоды",
+        "description": "неменее полезны как фрукты и овощи, могли б отнести к фруктам"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "first_name": "Картофель",
+        "description": "Самый главный овощ",
+        "image": "",
+        "category": 4,
+        "price": 100.5,
+        "created_at": "2025-05-03",
+        "updated_at": "2025-05-03"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "first_name": "Морковь",
+        "description": "Для зрения",
+        "image": "",
+        "category": 4,
+        "price": 68.99,
+        "created_at": "2025-05-03",
+        "updated_at": "2025-05-03"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "first_name": "Яблоко",
+        "description": "Сочное, новый урожай",
+        "image": "",
+        "category": 5,
+        "price": 84.99,
+        "created_at": "2025-05-03",
+        "updated_at": "2025-05-03"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "first_name": "Апельсин",
+        "description": "Рыжий, богатая клетчатка",
+        "image": "",
+        "category": 5,
+        "price": 142.5,
+        "created_at": "2025-05-03",
+        "updated_at": "2025-05-03"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "first_name": "АрБуз",
+        "description": "Полосатый, сладкий",
+        "image": "",
+        "category": 6,
+        "price": 52.1,
+        "created_at": "2025-05-03",
+        "updated_at": "2025-05-03"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "first_name": "Виноград",
+        "description": "Киш-миш без косточек",
+        "image": "",
+        "category": 6,
+        "price": 188.2,
+        "created_at": "2025-05-03",
+        "updated_at": "2025-05-03"
+    }
+}
+]
